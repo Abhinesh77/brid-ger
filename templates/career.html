@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>career</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{%static 'style2.css' %}">
+  <link rel="stylesheet" href="{% static 'style1.css' %}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	body{
+  		background-image: url("{% static 'backimage1.jpg' %}")
+
+  	}
+  	div{
+  		background-color: #d2b55b;
+  	}
+  	.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #000000;}
+  </style> 
+  </head>
+<body>
+ 
+<div class="container">
+  <div class="jumbotron">
+    <h1>Career guidance </h1>
+    
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Engineering</h2>
+      <h3>Trending Courses</h3>
+      <ul>
+      	<li>ComputerScience Engineering - Abc Engineering college</li>
+      	<li>Information Technology - xyz Engineering college</li>
+      	<li>Mechanical Engineering - GHJ Engineering college</li>
+      	<li>Electrical engineering - pash Engineering College</li>
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <h2>Arts</h2>
+      <h3>Trending Courses</h3>
+      <ul>
+      	<li>Literature - afs college</li>
+     	<li>Bsc- Computer Science - rkm college</li>
+     	<li>BA, MBA - wow College</li>
+     	
+     </ul>
+    </div>
+    <div class="col-sm-4">
+      <h2>Others</h2>        
+      <h3>In trend</h3>
+      <ul>
+      	<li>Hotel Management - sathya hotel management </li>
+      	<li>Visual Communication - Layilo college</li>
+      	<li>BFA in animation - MAP college </li>
+      </ul>
+   </div>
+  </div>
+  <div class="row">
+  	<div class="col-sm-4">
+  <img src="{% static 'successful.jpg' %}" width="75%" height="75%"></div>
+  <div class="col-sm-4">
+  <img src="{% static 'successful.jpg' %}" width="75%" height="75%"></div>
+  <div class="col-sm-4">
+  <img src="{% static 'successful.jpg' %}" width="75%" height="75%"></div>
+</div>
+<div class="row">
+	<h3> Visit contact page and get one-one guidance and make your steps counted for your growth</h3>
+	<center><button class="button button1">Contact Us</button></center>
+</div>
+</div>
+</body>
+</html>
